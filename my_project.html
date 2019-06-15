@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我的项目</title>
+	<meta charset="utf-8">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+
+		body{
+			background-color: rgb(255,242,227);
+			font-family: Microsoft YaHei,SimHei,Microsoft JhengHei,STHeiti;
+		}
+
+		#my_project{
+			margin-top: 30px;
+			font-size: 42px;
+			color: rgb(135,150,142);
+		}
+
+		.text{
+			margin: 10px;
+			font-size: 14px;
+			color: rgb(135,150,142);
+		}
+
+		.project_number>li{
+			margin-top: 14px;
+			margin-left: 3px;
+			margin-right: 3px;
+			padding: 6px 14px;
+			display: inline-block;
+			background-color: rgb(114,184,144);
+			border-radius: 2px;
+		}
+		.project_number>li:hover{
+			opacity: 0.7;
+		}
+		.project_number>li:active{
+			opacity: 1;
+		}
+
+		.btn{
+			padding: 10px 6px;
+			color: rgb(255,255,255);
+			text-decoration: none;
+		}
+
+		#elephant{
+			margin-top: 50px;
+		}
+
+		#last{
+			margin-top: 30px;
+			color: rgb(135,150,142);
+		}
+		#last a{
+			text-decoration: none;
+			color: rgb(114,184,144);
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1 id="my_project">我的项目</h1>
+	
+	<p class="text">一句话介绍项目</p>
+	
+	<ul class="project_number">
+		<li><a class="btn" href="#">项目1</a></li>
+		<li><a class="btn" href="#">项目2</a></li>
+		<li><a class="btn" href="#">项目3</a></li>
+		<li><a class="btn" href="#">项目4</a></li>
+		<li><a class="btn" href="#">项目5</a></li>
+	</ul>
+	
+	<img id="elephant" src="http://cdn.jscode.me/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2">
+
+	<ul class="project_number">
+		<li><a class="btn" href="#">查看源码</a></li>
+		<li><a class="btn" href="#">使用说明</a></li>
+	</ul>
+
+	<p id="last">作者:<a href="#">我</a></p>
+</body>
+</html>
